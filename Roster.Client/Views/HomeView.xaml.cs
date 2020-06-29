@@ -7,6 +7,7 @@ namespace Roster.Client.Views
     {
         public HomeView()
         {
+            BindingContext = new {Title = "Roster App"};
             InitializeComponent();
         }
     }
